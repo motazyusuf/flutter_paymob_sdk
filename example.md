@@ -105,7 +105,6 @@ if (result.isSuccessful) {
 }
 ```
 
-> `payWithPaymob` never throws — errors are returned as `PaymentStatus.unknown` with an `errorMessage`. Wrap `createPaymentIntention` in try/catch instead since it can throw on network or API failures.
 
 ---
 
@@ -133,7 +132,6 @@ PaymobCustomization(
 | Secure | `publicKey` | `String` | Your Paymob public key |
 | Secure | `clientSecret` | `String` | Client secret from your backend |
 | Direct | `secretKey` | `String` | Your Paymob secret key |
-| Direct | `publicKey` | `String` | Your Paymob public key |
 | Direct | `amount` | `int` | Amount in currency's main unit |
 | Direct | `currency` | `String` | Currency code (e.g. `'EGP'`) |
 | Direct | `integrationId` | `int` | Your Paymob integration ID |
