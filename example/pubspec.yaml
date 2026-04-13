@@ -13,7 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_paymob_sdk:
     path: ../
-  talker: ^4.7.3
+  talker: ^5.1.16
 
 dev_dependencies:
   flutter_test:
